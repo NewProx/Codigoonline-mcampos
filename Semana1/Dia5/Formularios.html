@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Formularios</h1>
+    </header>
+
+    <main>
+        <section>
+            <form action="">
+                <p>
+                <!-- Tipo de informacion que queremos ingresar -->
+                <!-- Placeholder texto de ayuda -->
+                <label for="name1">Nombre:</label>
+                <input type="text" 
+                        placeholder="Name" 
+                        id="name1"
+                        name="name1"/>
+                    </p>
+                    <p>
+                        <!-- Tipo de informacion que queremos ingresar -->
+                        <!-- Placeholder texto de ayuda -->
+                        <label for="Ape1">Apellido:</label>
+                        <input type="text" 
+                                placeholder="Apellido" 
+                                id="Ape1"
+                                name="Ape1"
+                                value="ABC"/>
+                            </p>
+
+                        <p>
+                                 <!-- STEP se utiliza para saber de cuanto en cuanto se agrega -->
+                            <label for="sueldo">Sueldo:</label>
+                            <input type="number" id="sueldo" name="sueldo" placeholder="S/. " step="10">
+                        </p>
+                <p>
+
+                    <label for="fnac">Fecha de Nacimiento</label>
+                    <input type="date" id="fnac" name="fnac">
+                </p>
+
+                <p>
+                    <label for="pass">Contraseña</label>
+                    <input type="password" id="pass" name="pass">
+                </p>
+
+                <p>
+                    <label for="mail">Email</label>
+                    <input type="email" id="mail" name="mail">
+                </p>
+                <p>
+                    <label for="co">Color</label>
+                    <input type="color" id="co" name="co">
+                </p>
+                <p>
+                    <label for="Hora">Hora</label>
+                    <input type="time" id="Hora" name="Hora">
+                </p>
+                <p><label for="">Elija Turno</label></p>
+                <p>
+                    <label for="man">Mañana</label>
+                    <input type="radio" id="man" name="turno" checked>
+                    <!--  -->
+                    <label for="tar">Tarde</label>
+                    <input type="radio" id="tar" name="turno">
+                    <!--  -->
+                    <label for="noc">Noche</label>
+                    <input type="radio" id="noc" name="turno">
+                </p>
+                <p><label for="">Seleccione Materia</label></p>
+                <p>
+                    <label for="uxui">UX/UI</label>
+                    <input type="checkbox" id="uxui" name="uxui">
+                    <!--  -->
+                    <label for="git">Git</label>
+                    <input type="checkbox" id="git" name="git">
+                    <!--  --><label for="devo">DevOps</label>
+                    <input type="checkbox" id="devo" name="devo">
+                    
+                </p>
+
+                <p>
+                    <label for="mensaje">Escriba un mensaje</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                </p>
+
+                <p>
+                    <label for="pais">Seleccione Pais</label>
+                    <select name="pais" id="pais">
+                        <option value="">Seleccione</option>
+                        <option value="Pe">Peru</option>
+                        <option value="Co">Colombia</option>
+                        <option value="Me">Mexico</option>
+                    </select>
+                </p>
+
+
+                <button type="submit">Registrarse</button>
+                <button type="button">Boton</button>
+                <button type="reset">Limpiar</button>
+                    </form>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,33 @@
+/*Importando la fuente*/
+@font-face{
+    font-family: "Lato";
+    src: url("./Lato-Regular.ttf");
+}
+
+h1 {
+    text-align: center;
+}
+article p:not(.Letra-Lato){
+    /*Intenta o agrega sandria a un texto*/
+    text-indent: 40px;
+    /*Espaciado entre letra y letra en un texto*/
+    letter-spacing: 5px;
+    /*Interlineado*/
+    line-height: 13px;
+    /*Espacio entre palabra y palabra*/
+    word-spacing: 15px;
+}
+
+small{
+    /*underline | overline | none | line-throught*/
+    text-decoration: overline;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.Letra-Lato{
+    font-family: "Lato";
+}

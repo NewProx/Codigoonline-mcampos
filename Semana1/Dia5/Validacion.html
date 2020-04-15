@@ -20,7 +20,8 @@
                 <input type="text" 
                         placeholder="Name" 
                         id="name1"
-                        name="name1"/>
+                        name="name1"
+                        required/>
                     </p>
                     <p>
                         <!-- Tipo de informacion que queremos ingresar -->
@@ -84,8 +85,25 @@
                     
                 </p>
 
+                <p>
+                    <label for="mensaje">Escriba un mensaje</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Esqcriba aqui..."></textarea>
+                </p>
+
+                <p>
+                    <label for="pais">Seleccione Pais</label>
+                    <select name="pais" id="pais">
+                        <option value="">Seleccione</option>
+                        <option value="Pe">Peru</option>
+                        <option value="Co">Colombia</option>
+                        <option value="Me">Mexico</option>
+                    </select>
+                </p>
+
 
                 <button type="submit">Registrarse</button>
+                <button type="button">Boton</button>
+                <button type="reset">Limpiar</button>
                     </form>
         </section>
     </main>

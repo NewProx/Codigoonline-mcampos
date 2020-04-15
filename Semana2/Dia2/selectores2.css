@@ -1,0 +1,37 @@
+/*De cada grupo de hermanos al mismo nivel*/
+li:nth-child(3) {
+    color: sienna;
+}
+
+p:first-child {
+    color: skyblue;
+}
+
+p:last-child {
+    color: slateblue;
+}
+
+/*Seleccionar todos los elementos impares de un grupo de hermanos al mismo nivel*/
+tr:nth-child(odd){
+    background-color: turquoise;
+}
+
+/*Para los pares*/
+tr:nth-child(even){
+    background-color: wheat;
+}
+
+thead>tr{
+    background-color: whitesmoke;
+}
+
+/*Todos los elementos dentro de un UL a cualquier nivel excepto la clase .Select*/
+/*Todos los hijos a cualquier nivel de un UL que a su vez sea hijos de un section, de todos ellos, excepto el que tiene la clase "Seleccionado"*/
+section ul :not(.Select){
+color: tomato;
+}
+
+/*Todos los H4 excepto los que tengan la clase "Letra-Grande"*/
+h4:not(.letra-grande){
+    color: violet;
+}

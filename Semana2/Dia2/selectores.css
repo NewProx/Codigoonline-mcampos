@@ -1,0 +1,58 @@
+/* Selector de nombre de etiqueta */
+
+/*Afecta a todos los Span*/
+span{
+    color: teal;
+}
+
+
+/*Selector ultiples separados por (,)*/
+
+li,p{
+    color: slateblue;
+}
+
+
+/*Selector de hijos de un elemento a cualquier Nivel*/
+
+aside a{
+    color: tomato;
+}
+
+
+/*Selector de hijos en Primer nivel*/
+
+article>h3{
+color: yellowgreen;
+}
+
+
+/*Selector de ID*/
+
+#TituloMovil {
+    color: coral;
+}
+
+
+/*Selector de Clase*/
+
+.LiSemana{
+    color: darkgoldenrod;
+}
+
+
+/*Selector que incluyen ñps atributos de un elemento*/
+
+input[type="text"]{
+    border: 1px solid seagreen;
+}
+
+input[type=number]{
+    border: 1px seashell;
+}
+
+/*
+.borde-rojo{
+    border: 1px rosybrown;
+}
+*/

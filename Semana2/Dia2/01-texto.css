@@ -1,0 +1,25 @@
+/*Familia de fuente*/
+h1{
+    font-family: cursive ,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+p{
+    /*Tamaño de la letra*/
+    /**/
+    font-size: 20px;
+    font-family: Tahoma, sans-serif;
+}
+
+h4{
+    font-weight: bold;
+}
+
+small{
+    font-style: italic;
+}
+
+.footer{
+    /*Propiuedad de texto estilo SHORTHAND*/
+    /*Font style, Font Weight, font Size, font-family*/
+    font: italic 100 10px Arial;
+}
