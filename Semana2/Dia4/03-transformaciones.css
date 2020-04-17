@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    margin: 40px auto 0px auto;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(143, 233, 131);
+}
+
+#Div-1:hover {
+    /* esclaed(x, y) */
+    transform: scale(1.1, 0.9);
+}
+
+#Div-2 {
+    background-image: url("https://via.placeholder.com/100/252725");
+    transform: rotate(45deg);
+}
+
+#Div-3 {
+    transform: translate(30px, 10px);
+}
+
+#Div-4 {
+    transform: scale(1.2, 1.2) rotate(45deg);
+}

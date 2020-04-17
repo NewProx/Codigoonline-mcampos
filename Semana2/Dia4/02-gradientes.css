@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#Div-1 {
+    width: 150px;
+    height: 150px;
+    margin: 50px auto 0px auto;
+    border: 1px solid  #aaaaaa;
+    /*Valoresde color de despalzamiento-x desplazamiento-y desenfoque resplandor [inset]*/
+    /*box-shadow: #999999 0px 0px 10px 3px inset;*/
+    /* background: -webkit-linear-gradient(30deg, #fff, #000); */
+    background: -webkit-linear-gradient(right, #0f2027, #203a43, #2c5364); /* Chrome 10-25, Safari 5.1-6 */
+}

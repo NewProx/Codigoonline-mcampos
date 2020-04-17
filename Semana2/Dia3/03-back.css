@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 150px;
+    background-color: orange;
+}
+
+main {
+    height: 1000px;
+}
+
+#Section-1 {
+    height: 300px;
+    background-color: linen;
+    background-image: url(./Img/Dog.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#Section-2 {
+    height: 700px;
+    background-image: url(./Img/Imagen-Textura.jpg);
+}
+
+#Section-3 {
+    height: 500px;
+    background-image: url(./Img/Frutas.jpg);
+    background-attachment: fixed;
+    padding-top: 210px;
+}
+
+#Section-3 h2 {
+    padding-top: 210px;
+    text-align: center;
+    font-family: cursive;
+    color: palegoldenrod;
+    font-size: 40px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+#Section-4 {
+
+    }

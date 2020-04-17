@@ -3,3 +3,15 @@ h1{
     text-align: center;
 color: #ACE8B1;
 }
+
+main p{
+    color: rgb(100,100,100);
+}
+
+h3{
+    color: rgb(41, 176, 249);
+}
+
+.rojo-transparente{
+    color: rgba(255, 42, 85, alpha);
+}

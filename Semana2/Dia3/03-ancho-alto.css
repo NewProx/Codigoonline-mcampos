@@ -1,0 +1,48 @@
+/*Ningun elemento tendra margen*/
+*{
+    margin: 0;
+}
+header {
+    background-color: rosybrown;
+}
+
+span{
+    background-color: royalblue;
+}
+
+
+main{
+    background-color: darkkhaki;
+    width: 50%;
+    height: 600px;
+}
+
+body{
+    background-color: darkseagreen;
+}
+
+.section-1 {
+    color: darkgreen;
+    width: 50%;
+    height: 100px;
+    /*Que se hara con el contenido extra al yamaño del contenedor*/
+    /*Hidden oculta el contenido que revañsa*/
+    overflow: hidden;
+}
+
+.section-2 {
+    background-color: darkslateblue;
+    color: darkgrey;
+    width: 50%;
+    height: 100px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+footer{
+    background-color: floralwhite;
+}
+
+footer>p{
+    text-align: center;
+}
