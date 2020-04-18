@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 900px;
+}
+
+header{
+    height: 70px;
+    background-color: greenyellow;
+}
+
+section{
+    background-color: khaki;
+    height: 830px;
+    width: 60%;
+    float: left;
+}
+
+aside{
+    width: 20%;
+    height: 830px;
+}
+
+#aside-1{
+    float: left;
+    background-color: grey;
+}
+
+#aside-2{
+    float: right;
+    background-color: indianred;
+}

@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    background-color: darkseagreen;
+    color: darkslateblue;
+}
+
+#contenedor {
+    width: 600px;
+    background-color: lavender;
+}
+
+#caja-1{
+    width: 140px;
+    height: 50px;
+    float: left;
+    background-color: lightgoldenrodyellow;
+}
+#caja-2{
+    width: 140px;
+    height: 50px;
+    float: left;
+    background-color: lightgray;
+}
+#caja-3{
+    width: 140px;
+    height: 50px;
+    float: left;
+    background-color: azure;
+}
+#caja-4{
+    float: left;
+    background-color: cadetblue;
+    width: 140px;
+    height: 50px;
+}
+
+#contenedor div{
+    margin: 0px;
+}
+
+#contenedor>div{
+    border: 1px solid darkolivegreen;
+}
+
+
+.fix{
+    clear: both;
+}
+
+#navegacion {
+    background-color: darkred;
+    color: gainsboro;
+}
+
+

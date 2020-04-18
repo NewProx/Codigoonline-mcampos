@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#Div-1{
+    width: 150px;
+    height: 150px;
+    background-color: burlywood;
+
+    animation: CambioColor 2s ease 0s 5 normal none;
+   
+}
+
+#Div-2{
+    margin: 100px auto 0px auto;
+    width: 150px;
+    height: 150px;
+    background-image: url("./baseline_backup_black_18dp.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+#Div-2:hover {
+    animation: Girar 2s linear 0s infinite normal none;
+}
+
+@keyframes Girar{
+    0%{
+        transform: rotate(0deg);
+    }
+
+    50%{
+        transform: rotate(180deg) /*scale(1.5)*/;
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes CambioColor{
+    0%{
+        background-color: chartreuse;
+    }
+    
+    50%{
+        background-color: coral;
+        transform: scale(1.5);
+    }
+
+    100%{
+        background-color: cornflowerblue;
+    }
+
+}
+
+

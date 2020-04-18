@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+background-color: crimson;
+}
+
+/* main{
+
+} */
+
+aside, section{
+    display: inline-block;
+
+}
+
+aside{
+    width: 30%;
+    height: 500px;
+    background-color: darkcyan;
+}
+
+section{
+    width: 70%;
+    height: 500px;
+    background-color: darkolivegreen;
+}
