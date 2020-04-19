@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    clear: both;
+    box-sizing: border-box;
+}
+
+main {
+    border: 1px solid indigo;
+    height: 500px;
+}
+
+.div-1, .div-2 {
+    background-color: lawngreen;
+    width: 150px;
+    height: 150px;
+    border: 1px solid brown;
+}
+
+.div-1{
+    position: relative;
+    top: 20px;
+}
